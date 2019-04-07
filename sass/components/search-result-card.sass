@@ -1,0 +1,120 @@
+    
+
+.search-result-card
+    background: $white
+    border-radius: 5px
+    
+    
+    
+.search-result-card__header,.search-result-card__footer
+    font-family: Roboto
+    margin: 10px 5px
+    
+    min-height: 50px
+    max-height: 100px
+    width: 100%
+    
+
+.search-result-card__header
+    display: grid
+    grid-template-columns: repeat(2, 1fr)
+    padding-top: 1em
+    padding-right: 1em
+    
+
+.search-result-card__footer
+    display: flex
+    
+
+
+.search-result-card__header__logo
+    margin-right: auto
+    img
+        height: 80%
+    
+    
+.search-result-card__header--right
+    display: flex
+
+.search-result-card__header__price
+    width: 106px
+    height: 36px
+    font-family: Roboto
+    font-size: 24px
+    font-weight: 600
+    color: $dark-slate-blue
+    margin: 2px 0
+    
+
+.search-result-card__header__button
+    width: 120px
+    height: 36px
+    font-family: Roboto
+    font-size: 14px
+    font-weight: 600
+    background: $yellow
+    color: $white
+    margin: 2px auto
+    border-radius: 20px
+    border: none
+    
+
+
+.search-result-card__footer
+    h3
+        color: $grey
+    h2
+        color: $dark-slate-blue
+
+
+
+.search-result-card__footer,.search-result-card__footer__duration,.search-result-card__footer__transfer
+    h3,h2
+        margin-right: 19px
+        margin-top: 0
+        
+
+
+.search-result-card__footer__plane--departure
+    i
+        position: relative
+        top: 55%
+        margin-right: 1em
+        color: $dark-slate-blue
+
+.search-result-card__footer__duration,.search-result-card__footer__transfer
+    h3
+        color: $grey
+        width: 30px
+        height: 20px
+    h2
+        width: 28px
+        height: 20px
+        color: $dark-slate-blue
+
+
+        
+
+
+
+.search-result-card__dashed-line
+    display: inline-block
+    width: 100%
+    height: 0
+    border-top: 2px dotted black
+    font-size: 0
+    overflow: hidden
+    &::before, &::after
+        content: "" 
+        position: absolute
+        margin-top: -10px
+        margin-left: -7.5px
+        height: 15px
+        width: 15px
+        background-color: black
+        border-radius: 50%
+        display: inline-block
+        
+
+
+    
